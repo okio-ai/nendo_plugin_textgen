@@ -1,0 +1,8 @@
+
+site_name: Textgen
+
+nav:
+    - "index.md"
+    - Advanced Usage: "advanced.md"
+
+    
