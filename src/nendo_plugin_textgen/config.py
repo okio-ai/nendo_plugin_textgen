@@ -9,6 +9,7 @@ class TextgenConfig(NendoConfig):
     """Configuration for the textgen plugin."""
 
     textgen_model: str = Field("TinyLlama/TinyLlama-1.1B-Chat-v1.0")
+    textgen_model_revision: str = Field("main")
     use_safetensors: bool = Field(True)
     attn_implementation: str = Field("eager")
     max_new_tokens: int = Field(100)
