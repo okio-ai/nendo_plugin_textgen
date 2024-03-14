@@ -49,6 +49,7 @@ class Textgen(NendoUtilityPlugin):
             use_safetensors=settings.use_safetensors,
             attn_implementation=settings.attn_implementation,
             torch_dtype=torch_dtype,
+            revision=settings.textgen_model_revision,
         )
         self.model.eval()
 
